@@ -13,7 +13,7 @@ import java.util.List;
 public class Email {
     private String emailId;
     private String message;
-    private Date arrived;
+    @Getter private Date arrived;
     private String emailURI;
     private String emailDownloadPath;
     private List<String> attachmentsPaths;
